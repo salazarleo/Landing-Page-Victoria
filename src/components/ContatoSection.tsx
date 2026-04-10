@@ -17,7 +17,7 @@ const ContatoSection = () => (
           Pronta para começar sua jornada de transformação? Agende sua consulta e dê o primeiro passo rumo a uma vida mais saudável.
         </p>
         <Button variant="hero" size="lg" asChild>
-          <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5551999282808" target="_blank" rel="noopener noreferrer">
             Agendar Consulta
           </a>
         </Button>

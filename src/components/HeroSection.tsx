@@ -28,7 +28,7 @@ const HeroSection = () => (
             Cuidando da sua saude com planejamento nutricional personalizado, acompanhamento continuo e resultados reais.
           </p>
   <Button variant="hero" size="lg" asChild>
-          <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5551999282808" target="_blank" rel="noopener noreferrer">
             Agendar Consulta
           </a>
         </Button>
