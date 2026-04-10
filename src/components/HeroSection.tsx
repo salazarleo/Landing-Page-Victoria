@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import heroImg from "@/assets/hero-nutrition.jpg";
 import profileImg from "@/assets/perfil.jpeg";
+import instagramLogo from "@/assets/logo-instagram.svg";
 
 const HeroSection = () => (
   <section id="home" className="relative flex min-h-[88vh] items-center pt-20">
@@ -27,11 +28,22 @@ const HeroSection = () => (
           <p className="mb-8 max-w-md font-medium text-base leading-relaxed text-foreground/80 lg:max-w-xl lg:text-lg">
             Cuidando da sua saude com planejamento nutricional personalizado, acompanhamento continuo e resultados reais.
           </p>
-  <Button variant="hero" size="lg" asChild>
-          <a href="https://wa.me/5551999282808" target="_blank" rel="noopener noreferrer">
-            Agendar Consulta
+          <Button variant="hero" size="lg" asChild>
+            <a href="https://wa.me/5551999282808" target="_blank" rel="noopener noreferrer">
+              Agendar Consulta
+            </a>
+          </Button>
+
+          <a
+            href="https://www.instagram.com/nutrivicaffeldt/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 mx-auto flex w-fit items-center gap-2 text-primary transition-opacity hover:opacity-80 lg:mx-0"
+            aria-label="Instagram nutrivicaffeldt"
+          >
+            <img src={instagramLogo} alt="Instagram" className="h-8 w-8" />
+            <span className="font-body text-2xl font-medium leading-none">nutrivicaffeldt</span>
           </a>
-        </Button>
         </motion.div>
 
         <motion.div
