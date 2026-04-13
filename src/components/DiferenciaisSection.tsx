@@ -4,10 +4,10 @@ import { Star, User, MessageCircle, Users, Utensils, Clock3 } from "lucide-react
 const diferenciais = [
   { icon: Star, title: "Exclusividade", desc: "Plano alimentar 100% elaborado conforme suas necessidades." },
   { icon: User, title: "Personalizado", desc: "Planejamento nutricional com base na sua demanda." },
-  { icon: MessageCircle, title: "Assistencia", desc: "Voce tem acompanhamento diariamente, possibilitando tirar qualquer duvida de forma imediata." },
-  { icon: Users, title: "Grupo de Monitoramento", desc: "Voce fara parte de um grupo de WhatsApp para acompanhamento pos consulta." },
-  { icon: Utensils, title: "Plano Alimentar", desc: "E entregue ate 4 planos alimentares diferentes visando ter autonomia e diversidade na alimentacao." },
-  { icon: Clock3, title: "Reavaliacao Continua", desc: "Ajustes estrategicos no plano ao longo das semanas para manter evolucao real e sustentavel." },
+  { icon: MessageCircle, title: "Assistência", desc: "Você tem acompanhamento diário, possibilitando tirar qualquer dúvida de forma imediata." },
+  { icon: Users, title: "Cuidado Individual", desc: "Sua alimentação respeita seu corpo, sua rotina, suas preferências e seus objetivos." },
+  { icon: Utensils, title: "Plano Alimentar", desc: "É entregue até 4 planos alimentares diferentes, visando ter autonomia e diversidade na alimentação." },
+  { icon: Clock3, title: "Reavaliação Contínua", desc: "Ajustes estratégicos no plano ao longo das semanas para manter evolução real e sustentável." },
 ];
 
 const DiferenciaisSection = () => (

@@ -13,8 +13,8 @@ const SobreSection = () => (
         <h2 className="mb-2 font-heading text-4xl font-light text-foreground md:text-5xl">Sobre Mim</h2>
         <div className="mx-auto mb-8 h-px w-16 bg-primary" />
         <p className="font-medium leading-relaxed text-foreground/80">
-          Sou a Victoria Affeldt, nutricionista apaixonada por transformar vidas atraves da alimentacao consciente e
-          personalizada. Acredito que cada pessoa e unica e merece um plano alimentar que respeite suas necessidades,
+          Sou a Victória Affeldt, nutricionista apaixonada por transformar vidas através da alimentação consciente e
+          personalizada. Acredito que cada pessoa é única e merece um plano alimentar que respeite suas necessidades,
           rotina e objetivos.
         </p>
       </motion.div>

@@ -20,13 +20,16 @@ const HeroSection = () => (
           className="order-1 mx-auto max-w-xl text-center lg:mx-0 lg:text-left"
         >
           <h1 className="mb-1 font-heading text-5xl font-light leading-tight text-foreground md:text-7xl">
-            Victoria <span className="font-medium text-primary">Affeldt</span>
+            Victória <span className="font-medium text-primary">Affeldt</span>
           </h1>
           <p className="mb-8 mx-auto w-fit text-left font-medium text-lg uppercase tracking-[0.30em] text-muted-foreground lg:mx-1">
-            Nutricionista
+            Nutricionista{" "}
+            <span className="text-sm tracking-normal" style={{ fontFamily: "Arial, sans-serif" }}>
+              CRN: 21188D
+            </span>
           </p>
           <p className="mb-8 max-w-md font-medium text-base leading-relaxed text-foreground/80 lg:max-w-xl lg:text-lg">
-            Cuidando da sua saude com planejamento nutricional personalizado, acompanhamento continuo e resultados reais.
+            Cuidando da sua saúde com planejamento nutricional personalizado, acompanhamento contínuo e resultados reais.
           </p>
           <Button variant="hero" size="lg" asChild>
             <a href="https://wa.me/5551999282808" target="_blank" rel="noopener noreferrer">
